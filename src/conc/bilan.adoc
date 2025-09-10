@@ -1,3 +1,0 @@
-= Bilan
-== Principaux concepts abordés
-* Rust

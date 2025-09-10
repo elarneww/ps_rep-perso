@@ -1,3 +1,14 @@
+Sujets des TDs/Projet
+Pour la distribution des sujets de TDs, nous utilisons la plateforme github classroom. Ceci vous permettra de créer automatiquement un dépôt github pour la réalisation de vos TDs. Le lien pour récupérer chaque TD vous sera donné en temps utile. Ne clonez pas directement les dépôt de uvsq-pef.
+
+![Devine mon nombre](https://classroom.github.com/a/KVN6qHl6) (TD 1 et 2) (![solution]() dans la branche solution)
+        Exercices préliminaires : ![Rustlings](https://rustlings.rust-lang.org/) (jusqu'aux exercices 06_move_semantics inclus)
+    Exercices choisis (TD 3) (solution dans la branche solution)
+    Arbre binaire de recherche (TD 4) (solution dans la branche solution)
+        Compléments : Learn Rust With Entirely Too Many Linked Lists
+    Mini-projet
+    Multiplication de matrice (TD 5) (solution dans la branche solution)
+
 # Programmation efficace
 
 ![Build status](https://github.com/uvsq-pef/prog-efficace/actions/workflows/deploy.yml/badge.svg)

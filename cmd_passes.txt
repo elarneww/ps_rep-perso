@@ -1,0 +1,842 @@
+    1  ls
+    2  cd /
+    3  cd home/
+    4  cd arnew/
+    5  ls
+    6  pwd
+    7  ls
+    8  mkdir TD405
+    9  cd /
+   10  cd mnt/
+   11  ls
+   12  cd c/
+   13  ls
+   14  cd Users/
+   15  ls
+   16  cd asus/
+   17  cd SUPPORT/
+   18  ls
+   19  cd 01_Study_SUPPORT/
+   20  ls
+   21  cd 01_License\&info/
+   22  ls
+   23  cd L2_COURS/
+   24  ls
+   25  cd S4/
+   26  ls
+   27  start
+   28  ls
+   29  cd IN405\ -\ Systemes\ d_exploitation/
+   30  ls
+   31  cd 2025/
+   32  ls
+   33  cd TD\ Language\ C/
+   34  ls
+   35  cd TD5\ 405/
+   36  ls
+   37  cd ..
+   38  cd TD4\ 405/
+   39  cd ..
+   40  ls
+   41  cd ..
+   42  ls
+   43  cd TD\ Language\ C/
+   44  ls
+   45  code Exemple12.c 
+   46  gcc Exemple12.c -o Exemple12.exe
+   47  sudo apt install gcc
+   48  gcc
+   49  sudo apt install gcc
+   50  gcc
+   51  sudo apt install gcc.exe
+   52  sudo apt install gdb
+   53  gcc
+   54  sudo apt install gcc
+   55  aàt-get update
+   56  apt-get update
+   57  apt-get update gcc
+   58  sudo apt-get install gcc 
+   59  sudo apt-get install gcc --fix-missing
+   60  sudo apt updatelsb_release -a
+   61  sudo apt update
+   62  lsb_release -a
+   63  sudo apt install gcc
+   64  gcc
+   65  ls
+   66  cd TD5\ 405/
+   67  cd ..
+   68  cd TD6\ 405/
+   69  ls
+   70  cd ..
+   71  ls
+   72  gcc Exemple12.c  -o Exemple12.exe
+   73  cp Exemple12.c /home/arnew/TD405/Exemple12.c
+   74  cp TD6\ 405/ /home/arnew/TD405/
+   75  cp -r TD6\ 405/ /home/arnew/TD405/
+   76  cp -r TD5\ 405/ /home/arnew/TD405/
+   77  cd /home/arnew/TD405/
+   78  ls
+   79  gcc Exemple12.c 
+   80  sudo apt update
+   81  apt list --upgradable
+   82  gcc Exemple12.c -o Exemple12.exe
+   83  apt get -update
+   84  sudo apt update
+   85  gcc Exemple12.c -o Exemple12.exe
+   86  gcc --version
+   87  clang --version
+   88  reboot
+   89  gcc
+   90  gcc Exemple12.c -o Exemple12.exe
+   91  echo | gcc -E -Wp,-v -
+   92  sudo apt install libc6-dev
+   93  echo | gcc -E -Wp,-v -
+   94  gcc Exemple12.c -o Exemple12.exe
+   95  cd ..
+   96  ls
+   97  touch problemesGCC.txt
+   98  ls
+   99  prblemesGCC.txt
+  100  clear
+  101  ls
+  102  code problemesGCC.txt
+  103  cd TD405/
+  104  ls
+  105  cd TD6\ 405/
+  106  ls
+  107  cd ..
+  108  ls
+  109  Exemple12.exe
+  110  ./Exemple12.exe
+  111  Exemple12.c
+  112  code Exemple12.c
+  113  sudo apt install htop
+  114  htop
+  115  ./Exemple12.exe
+  116  htop
+  117  cd /
+  118  ls
+  119  cd mnt
+  120  ls
+  121  cd c
+  122  ls
+  123  cd ..
+  124  ls
+  125  cd usr/arnew
+  126  cd home/arnew/
+  127  ls
+  128  cd TD405/
+  129  ls
+  130  cd TD5\ 405/
+  131  ls
+  132  code TD*
+  133  code TD5Ex1.c
+  134  for file in TD*; do code "$file"; done
+  135  firefox TD5.pdf 
+  136  start firefox TD5.pdf
+  137  ./TD5.pdf
+  138  /mnt/c/Program Files/Mozilla Firefox/firefox.exe
+  139  /mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe
+  140  export PATH = Nouveau chemin:$PATH(+ancienne val)
+  141  export PATH = /mnt/c/Program Files/Mozilla Firefox/firefox.exe:$PATH
+  142  export PATH = /mnt/c/Program \ Files/Mozil[Ala Firefox/firefox.exe:$PATH
+  143  export PATH = /mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe:$PATH
+  144  export PATH = $PATH:/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe
+  145  firefox
+  146  firefox.exe
+  147  echo $PATH
+  148  export PATH = $PATH:/mnt/c/Program\ Files/Mozilla\ Firefox/firefox
+  149  firefox
+  150  Firefox
+  151  export PATH=$PATH:/mnt/c/Program\ Files/Mozilla\ Firefox/firefox
+  152  firefox
+  153  firefox.exe
+  154  export PATH=$PATH:/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe
+  155  firefox.exe
+  156  export PATH=$PATH:/mnt/c/Program\ Files/Mozilla\ Firefox/
+  157  firefox
+  158  export PATH="$PATH:/mnt/c/Program Files/Mozilla Firefox/"
+  159  firefox
+  160  ./firefox
+  161  ./firefox.exe
+  162  echo $PATH
+  163  "/mnt/c/Program Files/Mozilla Firefox/firefox.exe"
+  164  echo $PATH | tr ':' '\n'
+  165  firefox.exe
+  166  echo 'alias firefox="firefox.exe"' >> ~/.bashrc
+  167  source ~/.bashrc
+  168  ls
+  169  gcc TD5Ex1GPT.c -o TD5Ex1.exe
+  170  TD5Ex1.exe
+  171  ./TD5Ex1.exe
+  172  ./S4
+  173  ls
+  174  cd .;
+  175  cd ..
+  176  cd SUPPORT
+  177  cd ..
+  178  cd SUPPORT/
+  179  cd 01_Study_SUPPORT/
+  180  cd 01_License\&info/
+  181  ls
+  182  cd L2_COURS/
+  183  ls
+  184  cd S4
+  185  ls
+  186  cd IN405\ -\ Systemes\ d_exploitation/
+  187  ls
+  188  cd 202
+  189  cd 2025
+  190  ls
+  191  cd TD\ Language\ C/
+  192  ls
+  193  cd TD5\ /405
+  194  cd TD5\ 405/
+  195  ls
+  196  gcc TD5Ex31.c -o TD5Ex31.exe
+  197  ./T5Ex31.exe
+  198  ./TD5Ex31.exe
+  199  htop
+  200  ./TD5Ex31.exe
+  201  htop
+  202  gcc TD5Ex31.c -o TD5Ex31.exe
+  203  ./TD5Ex31.exe
+  204  gcc TD5Ex31.c -o TD5Ex31.exe
+  205  ./TD5Ex31.exe
+  206  gcc TD5Ex31.c -o TD5Ex31.exe
+  207  ./TD5Ex31.exe
+  208  gcc TD5Ex31.c -o TD5Ex31.exe
+  209  ./TD5Ex31.exe
+  210  gcc TD5Ex31.c -o TD5Ex31.exe
+  211  ./TD5Ex31.exe
+  212  ls
+  213  pwd
+  214  cd /
+  215  ls
+  216  cd home/
+  217  ls
+  218  cd arnew/
+  219  ls
+  220  cd TD405/
+  221  ls
+  222  cd TD3\ 405/
+  223  ls
+  224  cd /
+  225  ls
+  226  cd mnt/c/Users/asus/SUPPORT/
+  227  ls
+  228  cd 01_Study_SUPPORT/
+  229  ls
+  230  cd 01_License\&info/
+  231  ls
+  232  cd L2_COURS/
+  233  ls
+  234  cd S4/
+  235  ls
+  236  cd IN405\ -\ Systemes\ d_exploitation/
+  237  ls
+  238  cd 2025/
+  239  ls
+  240  cd TD\ Language\ C/
+  241  ls
+  242  cd TD7\ 405\ Tubes/
+  243  ls
+  244  code Ex1.c
+  245  code Pourquoi.txt
+  246  code tent_perso.c
+  247  code How.c
+  248  cd ..
+  249  cd Users/asus/SUPPORT/01_Study_SUPPORT/01_License\&info/
+  250  ls
+  251  cd L2_COURS/
+  252  ls
+  253  cd S4/
+  254  ls
+  255  cd IN405\ -\ Systemes\ d_exploitation/
+  256  ls
+  257  cd 2025/
+  258  ls
+  259  cd TD\ Language\ C/
+  260  cd TD7\ 405\ Tubes/
+  261  ls
+  262  cd ..
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd 2025
+  269  ls
+  270  cd TD\ Language\ C/
+  271  ls
+  272  mkdir /bin
+  273  mkdir bin
+  274  gcc Exemple15shmget.c -o bin/Exemple15shget.exe
+  275  cd bin
+  276  ls
+  277  ./Exemple15shget.exe 
+  278  ls
+  279  cd ..
+  280  ls
+  281  cd TD7\ 405\ Tubes/
+  282  ls
+  283  ./TD7Ex1Prof.exe
+  284  code TD7Ex1Prof.c
+  285  ls
+  286  ./TD7Ex2Prof.exe 
+  287  ./TD7Ex3Prof.exe 
+  288  ./bouldering.exe
+  289  ls
+  290  code signalearn.c
+  291  mv signalearn.c  ../signalearn.c
+  292  cd ..
+  293  mv signalearn.c TD6\ 405\ Signaux/signallearn.c
+  294  cd TD6\ 405
+  295  cd TD6\ 405\ Signaux/
+  296  ls
+  297  code signallearn.c 
+  298  ls
+  299  gcc signallearn.c  -o signallearn.exe
+  300  code signallearn.c 
+  301  gcc signallearn.c  -o signallearn.exe
+  302  ./signallearn.exe
+  303  code signalearn2.c 
+  304  gcc signallearn.c  -o signalearn2.c 
+  305  gcc signallearn.c  -o signalearn2.exe
+  306  code signalearn2.c
+  307  gcc signalearn2.c  -o signalearn2.exe
+  308  ./signalearn2.exe 
+  309  ls
+  310  ckear
+  311  clear
+  312  ls
+  313  cd TD6\ 405\ Signaux/
+  314  firefox TD6.pdf 
+  315  TD6Ex3
+  316  gcc -g TD6Ex3GPT.c  -o TD6Ex3GPT.exe
+  317  ./TD6Ex3GPT.exe 
+  318  code Thread_A.c
+  319  ls
+  320  code Thread_A.c
+  321  code Thread_C.c
+  322  ls
+  323  gcc -g TrainWhut.c -o TrainWhut.exe 
+  324  ./TrainWhut.exe 
+  325  gcc -g TrainWhut.c -o TrainWhut.exe 
+  326  ./TrainWhut.exe 
+  327  gcc -g TrainWhut.c -o TrainWhut.exe 
+  328  ./TrainWhut.exe 
+  329  gcc -g TrainWhut.c -o TrainWhut.exe 
+  330  ./TrainWhut.exe 
+  331  gcc -g TrainWhut.c -o TrainWhut.exe 
+  332  ./TrainWhut.exe 
+  333  gcc -g TrainWhut.c -o TrainWhut.exe 
+  334  ./TrainWhut.exe 
+  335  gcc -g TrainWhut.c -o TrainWhut.exe 
+  336  ./TrainWhut.exe 
+  337  gcc -g TrainWhut.c -o TrainWhut.exe 
+  338  ./TrainWhut.exe 
+  339  ls
+  340  cd TD\ training/
+  341  ls
+  342  code IO_.c
+  343  ls
+  344  gcc -g Ex1.c -o Ex1.exe 
+  345  CD ROOT
+  346  cd /
+  347  ls
+  348  ls la
+  349  ls -la
+  350  ls -la proc/
+  351  htop
+  352  ls -la proc | head -n 10
+  353  cat /proc/221/cmdline
+  354  cat proc/239/environ
+  355  sudo cat proc/239/environ
+  356  sudo cat proc/239/cmdline 
+  357  sudo cat proc/287/cmdline 
+  358  ls /dev/tcp
+  359  ls dev/
+  360  ss -tulpn
+  361  cat /dev/tcp/127.0.0.1/323
+  362  cat /dev/udp/127.0.0.1/323
+  363  cat /dev/udp/127.0.0.1:323
+  364  ls
+  365  cd home/
+  366  dir
+  367  ls
+  368  cd arnew/
+  369  ls
+  370  cd TD405/
+  371  ls -a
+  372  cd TD4\ 405/
+  373  ls
+  374  cd .
+  375  cd ..
+  376  ls
+  377  cd TD5\ 405/
+  378  ls
+  379  ./TD5Ex1.exe 
+  380  gcc -g TD5Ex1GPT.c -o TD5Ex1GPT.exe
+  381  ./TD5Ex1GPT.exe 
+  382  gcc -g TD5Ex1GPT.c -o TD5Ex1GPT.exe
+  383  ./TD5Ex1GPT.exe
+  384  cat TD5Ex1GPT.c
+  385  ls
+  386  code TestEx1.c
+  387  gcc TestEx1.c TestEx1.exe
+  388  gcc -g TestEx1.c -o TestEx1.exe
+  389  ./TestEx1.exe
+  390  gcc -g TestEx1.c -o TestEx1.exe
+  391  ./TestEx1.exe
+  392  cat ruyttfuj
+  393  cat ruyttfuj 2>/dev/null 
+  394  cat /dev/null
+  395  ls /dev/null
+  396  ls -l /dev/null
+  397  ls -a /dev/null
+  398  ls -l /dev/null
+  399  ls -lh
+  400  ls -lh /dev/null
+  401  man ls
+  402  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  403  touch rusthelp.txt
+  404  code rusthelp.txt 
+  405  sudo apt install cargo rust-src rustfmt
+  406  cargo new exoGoogle
+  407  cargo rename exoGoogle/ exogoogle
+  408  cargo new e
+  409  ls
+  410  c
+  411  cargo
+  412  ls car
+  413  ls $car
+  414  ls
+  415  ls car
+  416  cargoargo
+  417  cargo
+  418  which cargo
+  419  cd /usr/bin/cargo
+  420  cd /
+  421  cd /usr/bin/cargo
+  422  cd usr/bin/cargo
+  423  cd usr/bin/
+  424  ls
+  425  cd cargo
+  426  ls
+  427  cargp
+  428  cargo
+  429  py
+  430  sudo apt update
+  431  cd /
+  432  ls
+  433  cd cd usr/
+  434  ls
+  435  cd usr/
+  436  ls
+  437  cd ..
+  438  ls
+  439  cd home/
+  440  ls
+  441  cd arnew/
+  442  ls
+  443  mkdir CProjects
+  444  cd CProjects/
+  445  ls
+  446  mkdir ArSI-2.0
+  447  cd ArSI-2.0/
+  448  touch TkGUI-Feed.py
+  449  code TkGUI-Feed.py 
+  450  touch MT.c
+  451  code MT.c 
+  452  ls
+  453  py TkGUI-Feed.py 
+  454  sudo apt install python3 python3-tk
+  455  py TkGUI-Feed.py 
+  456  python TkGUI-Feed.py 
+  457  python3 TkGUI-Feed.py 
+  458  python3
+  459  python3 TkGUI-Feed.py 
+  460  echo "export DISPLAY=:0" >> ~/.bashrc
+  461  source ~/.bashrc
+  462  sudo apt install python3-tk
+  463  ls
+  464  touch Log.txt
+  465  code Log.txt 
+  466  cargo
+  467  cd ..
+  468  ls
+  469  cd 00_Languages_\&_Tech/
+  470  cd 04_Rust/
+  471  ls
+  472  cd /
+  473  cd mnt/c/Users/asus//SUPPORT/01_Study_SUPPORT/01_License\&info//00_Languages_\&_Tech/04_Rust/
+  474  cargo
+  475  rustc
+  476  ls
+  477  ./Hello_world
+  478  rustc Comment_Example.rs Comment_Example.exe
+  479  rustc Comment_Example.rs
+  480  ls
+  481  cd /
+  482  ls
+  483  cd home/
+  484  ls
+  485  cd arnew/
+  486  ls
+  487  cd /
+  488  cd mnt/
+  489  ls
+  490  cd c/
+  491  ls
+  492  cd Users/
+  493  cd asus/
+  494  ls
+  495  cd SUPPORT/
+  496  cd 01_Study_SUPPORT/
+  497  ls
+  498  cd 01_License\&info/
+  499  cd 00_Languages_\&_Tech/
+  500  ls
+  501  cd 04_Rust/
+  502  ls
+  503  cd /
+  504  cd mnt/c/Users/asus/SUPPORT/01_Study_SUPPORT/01_License\&info/02_Cours\ _Universitaire/L3_COURS/L3/Semestre\ 5/IN512\ -\ Programmation\ Système/
+  505  ls
+  506  ./script_install_cours_wsl\(2\).sh 
+  507  cd ..
+  508  ls
+  509  cd S5_Vault/
+  510  ls
+  511  cd ..
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd L3/
+  516  ls
+  517  cd Semestre\ 
+  518  cd Semestre\ 5/
+  519  ls
+  520  cd IN512\ -\ Programmation\ Système/
+  521  ls
+  522  ./script_install_cours_wsl\(2\).sh 
+  523  git config --global core.autocrlf input
+  524  ls
+  525  cat script_install_cours_wsl\(2\).sh 
+  526  cat -A script_install_cours_wsl\(2\).sh 
+  527  sudo apt install dos2unix   # si pas installé
+  528  ls
+  529  dos2unix script_install_cours_wsl\(2\).sh 
+  530  mv script_install_cours_wsl\(2\).sh  /home/arnew/
+  531  ls
+  532  cd /
+  533  cd home/arnew/
+  534  ls
+  535  ./script_install_cours_wsl\(2\).sh 
+  536  bundle exec asciidoctor -r asciidoctor-diagram -D html/ src/index.adoc
+  537  ls
+  538  cd prog-efficace/
+  539  bundle exec asciidoctor -r asciidoctor-diagram -D html/ src/index.adoc
+  540  ls
+  541  bundle exec asciidoctor -r asciidoctor-diagram -D html/ src/index.adoc
+  542  java -version
+  543  sudo apt update
+  544  bundle exec asciidoctor -r asciidoctor-diagram -D html/ src/index.adoc
+  545  java -version
+  546  sudo apt install default-jdk -yjava -version
+  547  sudo apt install default-jdk -y
+  548  bundle exec asciidoctor -r asciidoctor-diagram -D html/ src/index.adoc
+  549  ls
+  550  cd html/
+  551  ls
+  552  index.html
+  553  firefox index.html 
+  554  cd /
+  555  cd mnt/c/Users/asus/SUPPORT/01_Study_SUPPORT/01_License\&info/02_Cours\ _Universitaire/L3_COURS/
+  556  ls
+  557  cd L3/
+  558  ls
+  559  cd Semestre\ 
+  560  cd Semestre\ 5/
+  561  ls
+  562  cd IN512\ -\ Programmation\ Système/
+  563  ls
+  564  cd ..
+  565  ls
+  566  cd S5_Vault/
+  567  cd ..
+  568  cd IN512\ -\ Programmation\ Système/
+  569  ls
+  570  ./script_install.sh 
+  571  ls
+  572  ./script_install.sh 
+  573  cd prog-efficace/
+  574  bundle exec asciidoctor -r asciidoctor-diagram -D html/ src/index.adoc
+  575  ls
+  576  dir /b
+  577  dir /B
+  578  ls
+  579  cd /
+  580  cd home/arnew/
+  581  sudo apt install firefox
+  582  code
+  583  mv /mnt/c/Users/asus/SUPPORT/01_Study_SUPPORT/01_License\&info/02_Cours\ _Universitaire/L3_COURS/L3/Semestre\ 5/IN512\ -\ Programmation\ Système/maj_rep_cp-html.sh /home/arnew/prog-efficace/
+  584  cd /home/arnew/prog-efficace/
+  585  ls
+  586  ./maj_rep_cp-html.sh 
+  587  cat -A maj_rep_cp-html.sh
+  588  dos2unix maj_rep_cp-html.sh 
+  589  ./maj_rep_cp-html.sh 
+  590  ls
+  591  code maj_rep_cp-html.sh 
+  592  ./maj_rep_cp-html.sh 
+  593  cat -A maj_rep_cp-html.sh 
+  594  dos2unix maj_rep_cp-html.sh 
+  595  ./maj_rep_cp-html.sh 
+  596  ls
+  597  cd bin/
+  598  ls
+  599  cd ..
+  600  ls
+  601  git status
+  602  cd ..
+  603  git clone https://github.com/elarneww/ps_rep-perso.git
+  604  cd ps_rep-perso/
+  605  ls
+  606  cd ..
+  607  cd ps_rep-perso/
+  608  ls
+  609  git status
+  610  remote -v
+  611  git remote -v
+  612  cd ..
+  613  git clone https://github.com/elarneww/bd_rep-perso.git
+  614  ls
+  615  cd bd_rep-perso/
+  616  ls
+  617  nano notes.txt 
+  618  git status
+  619  git pull mi
+  620  git pull main
+  621  git pull origin
+  622  cd ..
+  623  ls
+  624  mkdir PS
+  625  mv ps_rep-perso/ PS/
+  626  cd PS/
+  627  ls
+  628  git clone https://github.com/elarneww/in512-correction.git
+  629  ls
+  630  cd in512-correction/
+  631  ls
+  632  ssh-keygen ed25519 -C "pc_n°1"
+  633  ls
+  634  cd ..
+  635  ls
+  636  ssh-keygen -t ed25519 -C "pc_n°1"
+  637  eval "$(ssh-agent -s)"
+  638  ssh add ~/.ssh/id_ed25519
+  639  ssh-add ~/.ssh/id_ed25519
+  640  cat ~/.ssh/id_ed25519.pub | clip.exe
+  641  cd bd_rep-perso/
+  642  cd ..
+  643  cd PS/
+  644  cd in512-correction/
+  645  git remote set-url origin git@github.com:elarneww/in512-correction.git
+  646  cd ..
+  647  ls
+  648  cd ps_rep-perso/
+  649  git remote set-url origin git@github.com:elarneww/ps_rep-perso.git
+  650  cd ..
+  651  ls
+  652  cd ..
+  653  ls
+  654  cd bd_rep-perso/
+  655  git remote set-url origin git@github.com:elarneww/ps_rep-perso.git
+  656  git remote set-url origin git@github.com:elarneww/bd_rep-perso.git
+  657  git remote -v
+  658  cd ..
+  659  ls
+  660  cd PS
+  661  cd ps_rep-perso/
+  662  ls
+  663  cd ..
+  664  ls
+  665  cd ps_rep-perso/
+  666  cd ..
+  667  ls
+  668  cp script_install_cours_wsl\(2\).sh  PS/ps_rep-perso/
+  669  cd PS/ps_rep-perso/
+  670  ls
+  671  ./script_install_cours_wsl\(2\).sh
+  672  bundle exec asciidoctor -r asciidoctor-diagram -D html/ src/index.adoc
+  673  bundle install
+  674  bundle exec asciidoctor -r asciidoctor-diagram -D html/ src/index.adoc
+  675  ls
+  676  ./script_install_cours_wsl\(2\).sh
+  677  ls
+  678  nano script_install_cours_wsl\(2\).sh 
+  679  git remote -v
+  680  git remote add upstream https://github.com/uvsq-pef/prog-efficace.git
+  681  git remote -v
+  682  git status
+  683  git branch
+  684  ls
+  685  git branch
+  686  cd prog-efficace/
+  687  ls
+  688  cd ..
+  689  Bundle install
+  690  bundle install
+  691  bundle exec
+  692  ls
+  693  nano maj-script.sh
+  694  ls
+  695  ./maj-script.sh
+  696  chmod +x maj-script.sh 
+  697  ./maj-script.sh
+  698  nano maj-script.sh
+  699  ./maj-script.sh 
+  700  nano maj-script.sh
+  701  ./maj-script.sh 
+  702  nano maj-script.sh
+  703  ./maj-script.sh 
+  704  nano maj-script.sh
+  705  cd /
+  706  ls
+  707  cd home/
+  708  cd arnew/
+  709  ls
+  710  cd PS/
+  711  ls
+  712  cd ps_rep-perso/
+  713  ls
+  714  cd prog-efficace/
+  715  ls
+  716  cd ..
+  717  ls
+  718  cd prog-efficace/
+  719  ls
+  720  cd ..
+  721  ls
+  722  nano maj-script.sh 
+  723  ./maj-script.sh 
+  724  nano maj-script.sh 
+  725  code maj-script.sh 
+  726  ./maj-script.sh 
+  727  ls
+  728  cd ..
+  729  ls
+  730  mv bd_rep-perso/ IN500/
+  731  ls
+  732  mv PS/ IN500/
+  733  cd IN500/
+  734  code setup-rep.md
+  735  ls
+  736  cd /
+  737  cd home/arnew/
+  738  ls
+  739  cd PS
+  740  cd IN500/
+  741  cd PS/
+  742  ls
+  743  cd ps_rep-perso/
+  744  ls
+  745  rm -R Gemfile
+  746  rm -R LICENSE 
+  747  rm -R Rakefile 
+  748  rm -R src/
+  749  rm -R vendor/
+  750  ls
+  751  rm -R bin/
+  752  rm -R Gemfile.lock 
+  753  ls
+  754  mkdir T1-Syntaxe
+  755  cd T1-Syntaxe/
+  756  ls
+  757  code hello-world.rs
+  758  ls
+  759  rustc hello-world.rs
+  760  ls
+  761  git clone https://github.com/uvsq-info2526/devine-mon-nombre-elarneww
+  762  ls
+  763  git clone git clone git@github.com:uvsq-info2526/devine-mon-nombre-elarneww.git
+  764  git clone git@github.com:uvsq-info2526/devine-mon-nombre-elarneww.git
+  765  ssh -T git@github.com
+  766  ls
+  767  cd devine-mon-nombre-elarneww/
+  768  ls
+  769  mkdir src
+  770  echo "fn main(){" > src/devine_mon_nombre.rs
+  771  ls
+  772  cd src/
+  773  ls
+  774  code devine_mon_nombre.rs 
+  775  rustc devine_mon_nombre.rs 
+  776  ls
+  777  ./devine_mon_nombre 
+  778  cd ..
+  779  ls
+  780  git add src/
+  781  git commit -m "Réponse question 1 et 2"
+  782  git config --global arnaud.bacle@ens.uvsq.fr
+  783  git config --global user.name arnaud.bacle@ens.uvsq.fr
+  784  git config --global user.email arnaud.bacle@ens.uvsq.fr
+  785  git config --global user.name 22104859
+  786  git add src/
+  787* git add README.adoc [A
+  788  git commit -m "Réponse question 1 et 2"
+  789  git push
+  790  ascii doctor README.adoc 
+  791  asciidoctor README.adoc 
+  792  sudo apt install asciidoctor
+  793  ls
+  794  code README.adoc 
+  795  ls
+  796  touch cmd_passes.txt
+  797  code cmd_passes.txt 
+  798  cat ~/.bash_history > cmd_passes.txt 
+  799  code cmd_passes.txt 
+  800  ls
+  801  cd ..
+  802  ls
+  803  code README.md 
+  804  ls
+  805  cd prog-efficace/
+  806  cd ..
+  807  ls
+  808  git push
+  809  git rmeote -v
+  810  git remote -v
+  811  ls
+  812  git add T1-Syntaxe/
+  813  git rm --cached T1-Syntaxe/devine-mon-nombre-elarneww
+  814  git rm --cached -r -f T1-Syntaxe/devine-mon-nombre-elarneww
+  815  git submodule add git@github.com:uvsq-info2526/devine-mon-nombre-elarneww.git T1-Syntaxe/devine-mon-nombre-elarneww
+  816  git add .gitmodules 
+  817  git commit -m "Ajout du repo CLassroom comme submodule"
+  818  git add .gitmodules 
+  819  git push
+  820  git remote -v 
+  821  branch
+  822  git branch
+  823  git push --set -upstream origin notes
+  824  git push --set-upstream origin notes
+  825  ls
+  826  cd T1-Syntaxe/
+  827  ls
+  828  cd devine-mon-nombre-elarneww/
+  829  ls
+  830  mv cmd_passes.txt  >..
+  831  ls
+  832  mv cmd_passes.txt  > /..
+  833  mv cmd_passes.txt  > ../
+  834  mv cmd_passes.txt  > ../:
+  835  mv cmd_passes.txt ../
+  836  cd ..
+  837  ls
+  838  mv cmd_passes.txt  ../
+  839  ls
+  840  cd ..
+  841  ls
+  842  history > cmd_passes.txt 
