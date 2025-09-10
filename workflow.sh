@@ -1,10 +1,15 @@
 #!/bin/bash
 # workflow.sh - workflow pro PS/TD
 
-set -e  # stoppe le script si une commande échoue
+set -e
+
+BRANCH=notes   # branche TD actuelle
+
+echo "=== Checkout sur la branche $BRANCH ==="
+git checkout $BRANCH
 
 echo "=== Pull du repo perso ==="
-git pull
+git pull origin $BRANCH
 
 echo "=== Mise à jour de tous les submodules ==="
 git submodule update --init --recursive
