@@ -2,5 +2,5 @@ html/
 .vscode/
 bin/
 vendor/
-rustlings/
+#rustlings/ à ignorer si je ne veux plus le versionner
 prog-efficace/
