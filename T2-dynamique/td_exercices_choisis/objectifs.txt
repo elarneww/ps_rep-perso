@@ -1,0 +1,93 @@
+NOTE TO SELF LE CHARGE DE TD UTTILISE GPT
+
+ne pas hésiter à apprendre les solutions proposées par GPT
+elles pourraient tomber au contrôle.
+
+LE PROBLEME C'est de retenir ces suggestions.
+Ne pas hésiter à aller check la documentation.
+
+
+1) Lire 2 etapes présentations de l'énoncé dans README.adoc
+    i) squelette de départ
+    ii) lib.rs importe modules exo1,exo2,ex3.rs
+    iii) chacun de ces modules comportent test pour verif work
+    iv) uttilisez "cargo test exercice1"
+2) Commencer l'exercice n°1 bibliothèque musicale
+    i) 1ère Lecture (3)
+        a) Comprendre la structure Song
+        b) Comprendre les 2 attributs rank et title
+                    ====
+                (RANK = NOTE)
+                    ====
+        c) Comprendre l'objet SongsVec<Song> 
+            i)comprendre le rank... = (note ??)
+    ii) réalisation de l'exercice 1 ()
+        a) declarer fonction qui renvoie note moyenne vecteur.
+            i) comment accéder à songs[i].rank          DONE
+            ii) comment diviser f64 by u32, est possible DONE
+            iii) OU comment convertir u32 -> f64 ? DONE
+            Remarques GPT : lenght() → c’est len() en Rust.
+            1) moyenne doit être mutable (let mut moyenne).
+            2) La boucle for i in 1..n ne marche pas comme ça, car n est un f64 et tu veux un index entier (usize).
+            3) Tu démarres la boucle à 1, donc tu oublies le premier élément.
+            4) Pour éviter les erreurs, 
+            il vaut mieux utiliser un iter() 
+            plutôt qu’un index ???
+            5) Si vecteur vide, gérer division par zéro. DONE
+            6) GESTION DES TYPES                    DONE
+                (X) n est uttilisé d'abord comme int pour iterer
+                (X) n est ensuite uttiliser pour div un f64
+                (X) Opérateurs définis qu’entre types identiques 
+                    (ou compatibles via traits).
+                (X) rajouter somme /(n as f64)
+                (X) (...) inutile : op 'as' >> op '/' (voir prec op)
+                    mais meilleure lisibilitée 
+        b) convertir entier u32                     DONE 
+        c) declarer fonction filter_songs           DONE
+        d) filtrer vecteur/(liste) songs            DONE
+            ===  DEUX MANIERES DE FAIRE  ===
+            (X) Supprimmer des valeurs de Vec   NOT DONE
+            i) if note(song) < rank_min, pop(song) in songs
+            (X) Créer un nouveau vec et le renvoyer  DONE
+            ii) filtered.push(song);
+        e) filtrer song dans songs, song.rank > moy(songs)
+            i) référencer la liste des son
+            ii) faire les test
+        f) Taper cargo test exercice1       DONE
+
+        exercice1       SUCCESS
+
+### Exercice 2 : Crible d’Ératosthène
+
+En supprimant tous ces multiples, à la fin il ne restera que les entiers qui ne sont multiples 
+d'aucun entier à part 1 et eux-mêmes, et qui sont donc 
+les nombres premiers. 
+
+Etapes de résolutions :
+1) appliquer l'algorithmes à un interval restreint à la main.
+2) Supprimmer des nombre dans un vecteur.
+3) Ou générer des vecteurs de plus en plus petits 
+    au fur et à mesure.
+    (?) Comment trancher ???
+    Le prof recommande l'uttilisation de range()
+    et de for i in 1..=100.step_by(3)...
+
+    (Réflexion)
+    hmmmm, faire varier le pas... ainsin on saute des valeurs..
+    on peux sauter de 5 en 5... 
+    Dans ce cas on saute sur les multiples de 5.
+    C'est facile de se dire qu'on va supprimmer 
+    tout les multiples. 
+    Mais après un saut de 5 en 5, les multiples de 5 ont
+    disparus... MAIS l'ordre de la liste est brouillé/
+
+    Faut il conserver une lsite avec le bon ordre ?
+    Mais comment cribler ensuite ? 
+4) Regarder la correction ? AskGPT ?
+    -> Je bloque car je n'aime pas et je ne sais pas
+    comment supprimmer des valeurs dans un vecteur qui 
+    va alors se mettre à raccourcir...
+5) Checker le cours sur les vecteurs raccourcis
+6) Ou bien faute de pouvoir raccourci le vecteur
+    on met les valeures non premières à -1, ou à None.
+7)
