@@ -1,0 +1,15 @@
+{
+  "folders": [
+    { "path": "doc" },
+    { "path": "T1-Syntaxe" },
+    { "path": "T2-dynamique" },
+    { "path": "prog-efficace" },
+    { "path": "src" },
+    { "path": "doc/html"}
+  ],
+  "settings": {
+    "workbench.colorTheme": "BatmanDark Theme",
+    "editor.tabSize": 4,
+    "files.autoSave": "afterDelay"
+  }
+}
