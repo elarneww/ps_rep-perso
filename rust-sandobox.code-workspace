@@ -1,0 +1,49 @@
+{
+  "folders": [
+    { "path": "sandbox" }
+  ],
+  "settings": {
+    "workbench.colorTheme": "BatmanDark Theme",
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "rust-analyzer.cargo.runBuildScripts": true,
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.inlayHints.enable": true,
+    "rust-analyzer.procMacro.enable": true,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "extensions": {
+    "recommendations": [
+      "rust-lang.rust-analyzer",
+      "serayuzgur.crates",
+      "vadimcn.vscode-lldb",
+      "formulahendry.code-runner"
+    ]
+  },
+  "launch": {
+    "configurations": [
+      {
+        "name": "Run Rust Sandbox",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}",
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "cargo build"
+      }
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Current Rust Project",
+        "type": "shell",
+        "command": "cargo run",
+        "group": { "kind": "build", "isDefault": true },
+        "problemMatcher": []
+      }
+    ]
+  }
+}
